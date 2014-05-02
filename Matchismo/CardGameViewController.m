@@ -39,7 +39,7 @@
     
     self.flipCount++;
     
-    if (self.flipCount == 2) { // All cards have been drawed
+    if (self.flipCount == 104) { // All cards have been drawed
         self.flipsLabel.text = [self.flipsLabel.text stringByAppendingString:@" - Estratte tutte le carte"];
         sender.enabled = NO;
     }
