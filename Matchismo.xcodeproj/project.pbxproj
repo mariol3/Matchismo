@@ -25,6 +25,7 @@
 		ACAC19F8191437E600B3C189 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC19F7191437E600B3C189 /* PlayingCard.m */; };
 		ACAC19FB19143ABE00B3C189 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC19FA19143ABE00B3C189 /* Deck.m */; };
 		ACAC19FE19143CAE00B3C189 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC19FD19143CAE00B3C189 /* PlayingCardDeck.m */; };
+		ACAC1A041914E46200B3C189 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAC1A031914E46200B3C189 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		ACAC19FA19143ABE00B3C189 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		ACAC19FC19143CAE00B3C189 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		ACAC19FD19143CAE00B3C189 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		ACAC1A021914E46200B3C189 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		ACAC1A031914E46200B3C189 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 				ACAC19FA19143ABE00B3C189 /* Deck.m */,
 				ACAC19FC19143CAE00B3C189 /* PlayingCardDeck.h */,
 				ACAC19FD19143CAE00B3C189 /* PlayingCardDeck.m */,
+				ACAC1A021914E46200B3C189 /* CardMatchingGame.h */,
+				ACAC1A031914E46200B3C189 /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				ACAC19D41914244A00B3C189 /* CardGameViewController.m in Sources */,
 				ACAC19CA1914244A00B3C189 /* main.m in Sources */,
 				ACAC19F8191437E600B3C189 /* PlayingCard.m in Sources */,
+				ACAC1A041914E46200B3C189 /* CardMatchingGame.m in Sources */,
 				ACAC19FE19143CAE00B3C189 /* PlayingCardDeck.m in Sources */,
 				ACAC19FB19143ABE00B3C189 /* Deck.m in Sources */,
 				ACAC19F4191436CA00B3C189 /* Card.m in Sources */,
