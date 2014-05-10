@@ -5,6 +5,7 @@
 //  Created by Mario Grimaldi on 02/05/14.
 //  Copyright (c) 2014 Mario. All rights reserved.
 //
+//  Card that represent a common playing card with suits and ranks
 
 #import "Card.h"
 

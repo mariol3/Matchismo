@@ -21,6 +21,8 @@
     return _cards;
 }
 
+// Insert a card into the deck with possibility
+// to put it in top
 -(void)addCard:(Card *)card atTop:(BOOL)atTop {
     if (atTop) {
         [self.cards insertObject:card atIndex:0];
@@ -29,6 +31,7 @@
     }
 }
 
+// Insert a card into the deck
 -(void)addCard:(Card *)card {
     [self addCard:card atTop:NO];
 }

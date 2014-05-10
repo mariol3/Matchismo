@@ -16,9 +16,16 @@
 - (instancetype)initWithCardCount:(NSUInteger)count
                         usingDeck:(Deck *)deck;
 
+- (instancetype)initWithCardCount:(NSUInteger)count
+                        usingDeck:(Deck *)deck
+                 withCardsToMatch:(NSUInteger)cardsToMatch;
+
 - (void)chooseCardAtIndex:(NSUInteger)index;
 - (Card *)cardAtIndex:(NSUInteger)index;
 
 @property (nonatomic, readonly) NSUInteger score;
+@property (nonatomic) NSUInteger cardsToMatch;
+@property (nonatomic, readonly) NSArray *lastChosenCards;
+@property (nonatomic, readonly) NSInteger lastScore;
 
 @end
